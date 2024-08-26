@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="createpost.css">
+		<title>CREATE POST</title>
+	</head>
+	<body>
+		<button id="back-main">🏠︎ Home </button>
+		<h1>CREATE POST</h1>
+
+		<section>
+			<form action="" method="post">
+				<label for="titlePost">Title:</label>
+				<input id="titlePost" type="text" name="titlePost" />
+
+				<label for="description">Description:</label>
+				<input id="description" type="text" name="description" />
+
+				<label for="imageURL">Image URL:</label>
+				<input id="imageURL" type="text" name="imageURL" />
+
+				<button type="button" id="clean-fields">Clean Fields</button>
+				<button type="submit">Submit</button>
+			</form>
+		</section>
+
+		<section id="data-container"></section>
+
+		<script src="createpost.js"></script>
+	</body>
+</html>
